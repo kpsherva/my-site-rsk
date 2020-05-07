@@ -9,7 +9,7 @@
 {%- block javascript %}
   {{ super() }}
   {{ webpack['react_searchkit_search_ui_app.js'] }}
-   <script type="text/javascript">window.renderReact("{{ data.searchID }}", "{{ data.searchConfig }}");</script>
+   <script type="text/javascript">window.renderReact("{{ data.searchID }}", "{{ data.overwriteMap }}");</script>
    <script type="text/javascript">window.renderReact("{{ data.special }}");</script>
 {%- endblock javascript %}
 

@@ -18,7 +18,7 @@ const renderResultsListItem = (result, index) => {
           src={result.imageSrc || 'http://placehold.it/200'}
         />
         <Item.Content>
-          <Item.Header>{metadata.title} This is the FIRST OVERWRITE</Item.Header>
+          <Item.Header>{metadata.title} This is the MY_SITE OVERWRITE</Item.Header>
           <Item.Description>
             {_truncate(metadata.keywords.join(","), { length: 200 })}
           </Item.Description>

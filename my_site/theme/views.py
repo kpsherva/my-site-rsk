@@ -32,7 +32,7 @@ def my_record_search():
     # ipdb.set_trace()
     config = {"searchID": "react-searchkit",
               "special": "second-kit",
-              "searchConfig": "wild_search/configRSK",
+              "overwriteMap": "my_searchkit/overwriteMap",
               }
     return render_template('my_site/wild_search.html', data=config)
 
